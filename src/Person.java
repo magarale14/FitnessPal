@@ -40,9 +40,9 @@ public class Person {
 		
 	}
 	
-	public String toString(){
-		return ("firstname: " + this.firstName + "\n" + "lastName: " +this.lastName + "\n" + "lastNameInitial: " + this.lastNameInitial + "\n" + "age: " + this.age + "\n" + "weight: " + this.weight + "\n" + "feets : " + this.feets + "\n" + "inches : "+ this.inches + "\n");
-	}
+	/*public String toString(){
+		return ("firstName: " + this.firstName + "\n" + "lastName: " +this.lastName + "\n" + "lastNameInitial: " + this.lastNameInitial + "\n" + "age: " + this.age + "\n" + "weight: " + this.weight + "\n" + "feets : " + this.feets + "\n" + "inches : "+ this.inches + "\n"); 
+	}*/
  // Declaring methods
 	
     String calculatBMI(){
@@ -70,9 +70,8 @@ else
 	return BMI + ":" + bmiLevel;
 	
 }
-  
-  // Using Getters and Setter 
-    
+
+
 	public String getFirstName() {
 		return firstName;
 	}
@@ -106,7 +105,6 @@ else
 	public int getAge() {
 		return age;
 	}
-		
 
 
 	public void setAge(int age) {
@@ -142,6 +140,7 @@ else
 	public void setInches(int inches) {
 		this.inches = inches;
 	}
-	
-
 }
+  
+  // Using Getters and Setter 
+    
